@@ -9,10 +9,6 @@ This project contains two different software running on two different units conn
 
 These units communicate over Ethernet to get the RC-car moving within the lanes.
 
-### Theory
-
-WIP
-
 ## Installation
 
 #### Jetson TX2
@@ -30,7 +26,7 @@ Then just download this GitHub repo.
 #### Arduino
 
 From the downloaded GitHub repo open the ```rc_control.cpp``` in Platform.io in Visual Studio Code. [Install Guide for VSC.](https://docs.platformio.org/en/latest/ide/vscode.html)
-Flash the Arduino with the software provided.
+
 
 You will need to install the following libaries though Platform.io:
 ```
@@ -39,6 +35,7 @@ Servo
 ArduinoJson
 nlohmann-json
 ```
+Flash the Arduino with the software provided.
 
 In the software the pins for the servo and motor are defined as following:
 
