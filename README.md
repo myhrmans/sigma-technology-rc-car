@@ -29,8 +29,16 @@ Then just download this GitHub repo.
 
 #### Arduino
 
-From the downloaded GitHub repo open the rc_control.cpp in Platform.io in Visual Studio Code. [Install Guide for VSC.](https://docs.platformio.org/en/latest/ide/vscode.html)
+From the downloaded GitHub repo open the ```rc_control.cpp``` in Platform.io in Visual Studio Code. [Install Guide for VSC.](https://docs.platformio.org/en/latest/ide/vscode.html)
 Flash the Arduino with the software provided.
+
+You will need to install the following libaries though Platform.io:
+```
+Ethernet
+Servo
+ArduinoJson
+nlohmann-json
+```
 
 In the software the pins for the servo and motor are defined as following:
 
@@ -72,7 +80,10 @@ To contribute or continue this project just contact one of the contributers.
 As this project is 100% developed under Sigmas roof they own all software and hardware so anyone here at Sigma is allowed to develop on this. 
 
 ## Contributers
-[Martin Myhrman](https://skies.sigmatechnology.se/main.asp?rID=1&alt=2&username=miy 
+[Martin Myhrman](https://skies.sigmatechnology.se/main.asp?rID=1&alt=2&username=miy)
+
 [Simon Malmberg](https://skies.sigmatechnology.se/main.asp?rID=1&alt=2&username=smg)
+
 [Rakshith M Rao](https://skies.sigmatechnology.se/main.asp?rID=1&alt=2&username=rmo)
+
 [Oskar Hellqvist](https://skies.sigmatechnology.se/main.asp?rID=1&alt=2&username=oht)
