@@ -60,8 +60,9 @@ or
 ```
 Enable one or both options. First one will show you a result as the first output picture below and the second one will give you an output like picture 4 and 5.
 
-```
+
 ## Output Images
+
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Detected lane(s)`
 - ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `Boundry for lane detection`
 - ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `Path RC-Car will follow`
