@@ -66,7 +66,7 @@ or
 #Enable line below to show the black/white contrast output
 #cv2.imshow("cropped", cropped_image)
 ```
-Enable one or both options. First one will show you a result as the first output picture below and the second one will give you an output like picture 4 and 5.
+Enable one or both options. First one will show you a result as the 1 output picture below and the second one will give you an output like picture 3 and 4.
 
 
 ## Output Images
@@ -74,6 +74,10 @@ Enable one or both options. First one will show you a result as the first output
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Detected lane(s)`
 - ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `Boundry for lane detection`
 - ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `Path RC-Car will follow`
+[Straight Color](images/output_data/straight_color.png)
+[Turn Color](images/output_data/turn_color.png)
+[Straight No Color](images/output_data/straight_color.png)
+[Turn No Color](images/output_data/turn_no_color.png)
 
 ## Contributing
 To contribute or continue this project just contact one of the contributers.
