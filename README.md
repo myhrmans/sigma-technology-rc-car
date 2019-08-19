@@ -11,7 +11,7 @@ These units communicate over Ethernet to get the RC-car moving within the lanes.
 
 ## Installation
 
-#### Jetson TX2
+#### Jetson Nano
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the required packages.
 Required packages are currently:
 ```
