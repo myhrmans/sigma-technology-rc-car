@@ -29,30 +29,49 @@ Then just download this GitHub repo.
 
 #### Arduino
 
-From the downloaded GitHub repo open the 
+From the downloaded GitHub repo open the rc_control.cpp in Platform.io in Visual Studio Code. [Install Guide for VSC.](https://docs.platformio.org/en/latest/ide/vscode.html)
+Flash the Arduino with the software provided.
+
+In the software the pins for the servo and motor are defined as following:
+
+```c
+#define steeringControl 5
+#define motorPin 4
+```
 
 ## Usage
+#### 1. Arduino
+Boot up the Arduino with the server and motor connected to the corresponding pins.
+#### 2. Jetson Nano
 Open a terminal in the downloaded directory. 
 Then run:
 ```bash
 python ./start.py
 ```
-This is going to start up the 
+The Jetson and Arudino should now have communication through the Ethernet cable and start working on controlling the car. If you have the Jetson Nano connect to an HDMI you can enable the output from the camera. To do that open the ```start.py``` file and look for 
 ```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+#Enable line below to show the final output on the screen
+#cv2.imshow("result", combo_image)    
 ```
-## Result Images
+or 
+```python
+#Enable line below to show the black/white contrast output
+#cv2.imshow("cropped", cropped_image)
+```
+Enable one or both options. First one will show you a result as the first output picture below and the second one will give you an output like picture 4 and 5.
+
+```
+## Output Images
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Detected lane(s)`
 - ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `Boundry for lane detection`
 - ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `Path RC-Car will follow`
+
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+To contribute or continue this project just contact one of the contributers.
+As this project is 100% developed under Sigmas roof they own all software and hardware so anyone here at Sigma is allowed to develop on this. 
 
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+## Contributers
+[Martin Myhrman](https://skies.sigmatechnology.se/main.asp?rID=1&alt=2&username=miy 
+[Simon Malmberg](https://skies.sigmatechnology.se/main.asp?rID=1&alt=2&username=smg)
+[Rakshith M Rao](https://skies.sigmatechnology.se/main.asp?rID=1&alt=2&username=rmo)
+[Oskar Hellqvist](https://skies.sigmatechnology.se/main.asp?rID=1&alt=2&username=oht)
