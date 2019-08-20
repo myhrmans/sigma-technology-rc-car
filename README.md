@@ -4,6 +4,7 @@
 An ongoing project in creating an autonomous RC-car that can follow lanes.
 
 ## Background
+###### Password for the Jetson Nano at the office is ```sigma```
 This project contains two different software running on two different units connected via Ethernet.
 ##### 1. Nvidia Jetson Nano - Running Python code with lane detection
 ##### 2. Arduino MEGA 2560 - Running C code to control motor and servo
