@@ -84,9 +84,6 @@ Car Going Straight Contrast(black/white) Ouput
 Car Turning Contrast(black/white) Ouput 
 ![Turn No Color](images/output_data/turn_no_color.png)
 
-## Contributing
-To contribute or continue this project just contact one of the contributers.
-As this project is 100% developed under Sigmas roof they own all software and hardware so anyone here at Sigma is allowed to develop on this. 
 
 ## Contributers
 [Martin Myhrman](https://skies.sigmatechnology.se/main.asp?rID=1&alt=2&username=miy)
