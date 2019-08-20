@@ -1,5 +1,6 @@
 # Sigma Technology RC-car
 
+![Front Image](images/front_image.jpg)
 An ongoing project in creating an autonomous RC-car that can follow lanes.
 
 ## Background
